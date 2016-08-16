@@ -59,7 +59,7 @@
   </div>
 	<div class="copyright">
 		<div class="container">
-			<a href="http://www.templatemonster.com/" rel="nofollow" target="_blank"><img src="image/catalog/footer-logo.png" alt="logo"></a>
+			<a href="/" rel="nofollow" target="_blank">Metapalex</a>
 			<?php echo $powered; ?><!-- [[%FOOTER_LINK]] -->
 		</div> 
 	</div>
@@ -68,7 +68,7 @@
 
 </div>
 
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true&sensor=false"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true&sensor=false&key=AIzaSyAsMvua4HMtMVrs9S4vGgKZbfQQdiY3st8"></script>
         
         <script type="text/javascript">
             // When the window has finished loading create our google map below
@@ -80,7 +80,7 @@
                 var mapOptions = {
                     // How zoomed in you want the map to start at (always required)
                     zoom: 11,
-					scrollwheel: false,
+					          scrollwheel: false,
 
                     // The latitude and longitude to center the map (always required)
                     center: new google.maps.LatLng(40.6700, -73.9400), // New York
